@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+[x-checkbox]{
+    border: none;
+    outline: none;
+    outline-offset: none;
+    
+   
+}

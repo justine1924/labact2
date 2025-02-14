@@ -1,0 +1,41 @@
+document.querySelector('.infopf').setAttribute('style',`border:2px solid black;background: url(/storage/profiles/${pf});padding: 25px;background-repeat: no-repeat;background-size: cover;background-position: center top;`);
+    document.querySelector('#ipfirstname').innerHTML = pname;
+    document.querySelector('#iplastname').innerHTML = plastname;
+    document.querySelector('#pmiddleinitial').value =pmiddlename;
+    document.querySelector('#palias').value =palias;
+    document.querySelector('#pbirthday').value=pbirthday;
+    document.querySelector('#ipage').innerHTML=page;
+    document.querySelector('#pplaceofbirth').value=pplaceofbirth;
+    document.querySelector('#pEmail').value=pemail;
+    document.querySelector('#pMother').value=pmother;
+    document.querySelector('#pFather').value=pfather;
+    document.querySelector('#pheight').value=pheight;
+    document.querySelector('#pweight').value=pweight;
+    pGender=="male" ? document.querySelector('#pmale').checked = true : document.querySelector('#pfemale').checked = true;
+    document.querySelector('#pVoterStatus').value =pVoterStatus;
+    document.querySelector('#pCivilStatus').value =pCivilStatus;
+    document.querySelector('#pCitizenship').value =pCitizenship;
+    document.querySelector('#pTelephone').value=pTelephone;
+    document.querySelector('#pMobile').value=pMobile;
+
+    //profile
+
+    document.querySelector('.pimgpp').setAttribute('style',`border:2px solid black;background: url(/storage/profiles/${pf});padding: 25px;background-repeat: no-repeat;background-size: cover;background-position: center top;`);
+    document.querySelector('#pfirstname').value = pname;
+    document.querySelector('#plastname').value = plastname;
+    document.querySelector('#pmiddleinitial').value =pmiddlename;
+    document.querySelector('#palias').value =palias;
+    document.querySelector('#pbirthday').value=pbirthday;
+    document.querySelector('#page').value=page;
+    document.querySelector('#pplaceofbirth').value=pplaceofbirth;
+    document.querySelector('#pEmail').value=pemail;
+    document.querySelector('#pMother').value=pmother;
+    document.querySelector('#pFather').value=pfather;
+    document.querySelector('#pheight').value=pheight;
+    document.querySelector('#pweight').value=pweight;
+    pGender=="male" ? document.querySelector('#pmale').checked = true : document.querySelector('#pfemale').checked = true;
+    document.querySelector('#pVoterStatus').value =pVoterStatus;
+    document.querySelector('#pCivilStatus').value =pCivilStatus;
+    document.querySelector('#pCitizenship').value =pCitizenship;
+    document.querySelector('#pTelephone').value=pTelephone;
+    document.querySelector('#pMobile').value=pMobile;
